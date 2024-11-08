@@ -13,8 +13,11 @@ Este repositório contém o código-fonte do projeto Mavidibanco, incluindo conf
    ```bash
    git clone https://github.com/seu-usuario/mavidibanco.git
    cd mavidibanco
+   
 2. Construa e execute a aplicação em segundo plano usando Docker Compose:
+   ```bash
    docker-compose up -d
 
 3. Verifique os contêineres em execução:
+   ```bash
    docker ps 
