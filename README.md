@@ -21,3 +21,9 @@ Este repositório contém o código-fonte do projeto Mavidibanco, incluindo conf
 3. Verifique os contêineres em execução:
    ```bash
    docker ps 
+
+## Comando para testes 
+Verifica as imagens do docker 
+   ```bash
+   docker images
+   docker info 
