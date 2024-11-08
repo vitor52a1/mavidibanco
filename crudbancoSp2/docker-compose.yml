@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: meu_app_container
+    image: meu_app_imagem
+    ports:
+      - "8080:8080"
+    restart: always
+    user: "appuser"
